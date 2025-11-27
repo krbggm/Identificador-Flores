@@ -1,4 +1,4 @@
-const URL = "https://teachablemachine.withgoogle.com/models/TuCodigoRaroAqui/";
+const URL = "https://teachablemachine.withgoogle.com/models/N4TTFu61x/";
 let model, webcam, labelContainer, maxPredictions;
 
 const infoFlores = {
@@ -53,4 +53,5 @@ async function predict() {
         document.getElementById("flower-name").innerText = "Identificando...";
         document.getElementById("care-info").innerText = "";
     }
+
 }
