@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf2f8; /* Un rosita muy pálido */
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 { color: #db2777; }
+
+button {
+    background-color: #db2777;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover { background-color: #be185d; }
+
+.card {
+    background-color: #e0f2fe;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #0369a1;
+}

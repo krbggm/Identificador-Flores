@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Identificador de Flores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Florería Inteligente 🌸</h1>
+        <p>Sube una foto o usa la cámara para identificar la flor y ver sus cuidados.</p>
+        
+        <button type="button" onclick="init()">Comenzar Cámara</button>
+        <div id="webcam-container"></div>
+        
+        <div id="result-container">
+            <h2 id="flower-name">Esperando flor...</h2>
+            <div id="care-info" class="card">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
